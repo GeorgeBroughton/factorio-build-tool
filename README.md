@@ -4,4 +4,4 @@ This is a simple powershell cmdlet that builds factorio mods and launches the ga
 
 # To Do
  - [ ] Add help data
- 
+ - [ ] Data validate all inputs
