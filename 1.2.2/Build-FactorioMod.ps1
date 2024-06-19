@@ -1,8 +1,8 @@
 function Build-FactorioMod {
     param(
         [Parameter(Mandatory=$true)][string]$Name,
-        [Parameter(Mandatory=$true)][string]$Version,
-        [Parameter(Mandatory=$true)][switch]$Launch
+        [string]$Version,
+        [switch]$Launch
     )
 
     $GitDirectory = "$env:factorio_repo_dir\$Name"
